@@ -3,6 +3,6 @@
 sudo unlink /etc/nginx/sites-enabled/default
 sudo ln -s ~/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
 sudo /etc/init.d/nginx restart
-sudo ln -s ~/web/etc/gunicorn.conf   /etc/gunicorn.d/test
-sudo /etc/init.d/gunicorn -b restart
+#sudo ln -s ~/web/etc/gunicorn.conf   /etc/gunicorn.d/test
+sudo /etc/init.d/gunicorn -b 0.0.0.0:8080 hello:application &
 sudo /etc/init.d/mysql start
