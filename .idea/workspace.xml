@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2048bdc3-9811-41c1-a537-68c891189015" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/etc/guni.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/etc/gunicorn.conf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ask/manage.py" afterPath="$PROJECT_DIR$/ask/manage.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.sh" afterPath="$PROJECT_DIR$/init.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="init.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/init.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -48,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ask/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -56,6 +53,16 @@
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +92,8 @@
         <option value="$PROJECT_DIR$/etc/nginx.conf" />
         <option value="$PROJECT_DIR$/etc/gunicorn.conf" />
         <option value="$PROJECT_DIR$/etc/guni.py" />
-        <option value="$PROJECT_DIR$/init.sh" />
         <option value="$PROJECT_DIR$/ask/manage.py" />
+        <option value="$PROJECT_DIR$/init.sh" />
       </list>
     </option>
   </component>
@@ -128,20 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487967221309</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add manage py files and change server sh">
+      <created>1487968107893</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1487968107893</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -673,7 +673,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add fcking fix to fcking sh" />
     <MESSAGE value="add fcking fix to fcking conf" />
     <MESSAGE value="add fcking fix to fcking conf[2]" />
     <MESSAGE value="add WSGI script" />
@@ -698,7 +697,8 @@
     <MESSAGE value="ch nginx.conf" />
     <MESSAGE value="ipuio" />
     <MESSAGE value="i find that fcking bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="i find that fcking bug" />
+    <MESSAGE value="add manage py files and change server sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="add manage py files and change server sh" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -953,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask/ask/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1001,14 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ask/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1016,6 +1000,22 @@
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
