@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2048bdc3-9811-41c1-a537-68c891189015" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/etc/nginx.conf" afterPath="$PROJECT_DIR$/etc/nginx.conf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etc/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -547,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487961954581</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ch nginx.conf">
+      <created>1487962831388</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1487962831388</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -596,7 +602,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modified init file" />
     <MESSAGE value="modified config" />
     <MESSAGE value="add gitkeep empty files" />
     <MESSAGE value="add fcking fix to fcking sh" />
@@ -621,7 +626,8 @@
     <MESSAGE value="change gunicorn.config" />
     <MESSAGE value="change gunicorn.config[1}" />
     <MESSAGE value="add ask files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ask files" />
+    <MESSAGE value="ch nginx.conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch nginx.conf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -920,8 +926,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
